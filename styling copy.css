@@ -1,0 +1,66 @@
+body {
+    background-image: url('BG.jpg');
+    background-color: #E97451;
+    width: 700;
+    height: auto; 
+    padding: auto;
+    margin: auto;
+
+    background-size: contain;
+    
+    background-repeat: no-repeat;
+    background-attachment: 100px;
+    background-position: center;
+  }
+
+  .profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 20%;
+    height: 100px;
+    max-width: 100px;
+    border: 10px double rgb(4, 0, 0);
+  
+    border-radius: 50%;
+  }
+  
+  .profile-name {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: 45px;
+    font-style: oblique;
+
+  }
+  
+  .links {
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-width: 3px;
+    padding: 10px;
+  
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    border-radius: 40px;
+  
+    font-size: 25px;
+  }
+  
+  a {
+    text-decoration: none;
+  
+    color: rgb(169, 169, 169);
+    transition: color 1s;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: white;
+    font: bold;
+  }
